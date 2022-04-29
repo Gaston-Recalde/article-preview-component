@@ -16,5 +16,5 @@ const init = () => {
 //     document.getElementById("buttonClose").style.display = 'none';
 // };
 
-document.getElementById("buttonClose").addEventListener('click', init());
-document.getElementById("buttonCloseOne").addEventListener('click', init());
+document.getElementById("buttonClose").addEventListener('click', init);
+document.getElementById("buttonCloseOne").addEventListener('click', init);
